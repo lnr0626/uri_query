@@ -4,7 +4,7 @@ defmodule UriQuery.Mixfile do
   def project do
     [app: :uri_query,
      version: "0.2.0",
-     elixir: "~> 1.16",
+     elixir: "~> 1.15",
      build_embedded: Mix.env() == :prod,
      start_permanent: Mix.env() == :prod,
      deps: deps(),
